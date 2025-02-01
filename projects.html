@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title Here</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <canvas id="neural-network"></canvas>
+    <script src="script.js"></script>
+
+    <header>
+        <nav>
+            <div class="logo">Amr Raayed Nayel</div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="my-projects-section">
+        <div id="my-projects" class="section">
+            <button class="toggle-button" onclick="toggleProjectList()">My Projects &#9662;</button>
+            <div id="projects-list">
+                <div class="project-item">
+                    <h3>MyPortfolio</h3>
+                    <p class="brief-desc" onclick="toggleProjectDesc(this)">
+                        Designed a personal portfolio website using HTML, CSS and JavaScript
+                        <span class="downwards white arrow">▼</span>
+                    </p>                    
+                    <p class="full-desc hidden">I developed a responsive personal portfolio website using HTML5, CSS, and JavaScript. The site features custom CSS for seamless viewing across devices, animated text with Typed.js, and interactive JavaScript functions for toggling project and experience visibility. Advanced CSS techniques like flexbox, media queries, and pseudo-elements were used to create a visually appealing and user-friendly layout.</p>
+                </div>
+            
+                <div class="project-item">
+                    <h3>Investment Management System</h3>
+                    <p class="brief-desc" onclick="toggleProjectDesc(this)">
+                        Built an Investment Management System in Java
+                        <span class="downwards white arrow">▼</span>
+                    </p>                    
+                    <p class="full-desc hidden">I developed an Investment Management System in Java, applying OOP principles like encapsulation and polymorphism for a modular and scalable design. The system allows users to buy and sell stocks, investments, and shares, with search functionality to filter by price and quantity. A user-friendly dashboard dynamically stores and displays investment data, enhancing usability and efficiency.</p>
+                </div>
+            
+                <div class="project-item third">
+                    <h3>Ancient Artifacts Webdesign</h3>
+                    <p class="brief-desc" onclick="toggleProjectDesc(this)">
+                        Designed an ancient themed website using HTML & CSS
+                        <span class="downwards white arrow">▼</span>
+                    </p>                    
+                    <p class="full-desc hidden">I created a visually appealing website focused on ancient artifacts using HTML5 for structure and CSS for styling. The site includes a homepage and two content-rich pages, showcasing high-quality images and detailed descriptions of medieval artifacts. Emphasis was placed on responsive design to ensure an intuitive and consistent user experience across devices.</p>
+                </div>
+            </div>            
+        </div>
+    </div>
+            <footer>
+                <p>&copy; 2025 Amr's Portfolio. All rights reserved.</p>
+            </footer>
+    
+    </body>
+    </html>
+        
